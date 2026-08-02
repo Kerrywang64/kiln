@@ -8,7 +8,7 @@ MIT · zero dependencies · one file to run
 
 </div>
 
-![kiln report and card](hero.png)
+![kiln report](hero.png)
 
 ---
 
