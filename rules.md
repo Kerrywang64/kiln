@@ -75,7 +75,7 @@ Exempt: brand names, code identifiers, units, and measurements.
 
 ## Using these against a model
 
-The rules are only load-bearing if something checks them. Two of the four are mechanically checkable and live in `scripts/check.js` (rule 2 as the gradient/emoji/shadow signatures, rule 4 as S8). Rules 1 and 3 are judgment calls — put them in `DESIGN.md` as a checklist the build step must answer in writing before UI work is called done:
+The rules are only load-bearing if something checks them. Two of the four are mechanically checkable and live in `check.js` (rule 2 as the gradient/emoji/shadow signatures, rule 4 as S8). Rules 1 and 3 are judgment calls — put them in `DESIGN.md` as a checklist the build step must answer in writing before UI work is called done:
 
 ```
 [ ] R1  Did anything move? If yes, name what and why.

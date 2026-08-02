@@ -152,7 +152,7 @@ const SIG = [
 
   { id: 'S7', level: 'warn', name: 'unmeasured type scale',
     why: 'those numbers came from a config file, not from your design — and they stop being the same optical size the moment the family changes.',
-    fix: 'measure. scripts/measure-type.js solves back for a fixed cap height. Expect ugly numbers; ugly numbers mean measured.',
+    fix: 'measure. measure-type.js solves back for a fixed cap height. Expect ugly numbers; ugly numbers mean measured.',
     scan: (t) => {
       const RAMP = new Set(['12', '14', '16', '18', '20', '24', '30', '36', '48', '60', '72']);
       const seen = new Set(); const hits = []; let m;

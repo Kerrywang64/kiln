@@ -72,7 +72,7 @@ A signature is only listed here if it is **mechanically detectable** and **almos
 
 **Why it's slop:** those numbers came from a config file, not from the design. And when the type family changes, they no longer produce the same optical size — a serif and a mono at `40px` differ in cap height by a lot, so anything switchable visibly jumps.
 
-**Instead:** measure. `scripts/measure-type.js` renders the glyphs you actually care about, measures the ink bounding box, and solves back for the `font-size` that produces your target cap height. Lock the cap height. Expect ugly numbers like `37.3px` — ugly numbers are the sign it was measured.
+**Instead:** measure. `measure-type.js` renders the glyphs you actually care about, measures the ink bounding box, and solves back for the `font-size` that produces your target cap height. Lock the cap height. Expect ugly numbers like `37.3px` — ugly numbers are the sign it was measured.
 
 ---
 
